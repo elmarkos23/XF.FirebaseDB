@@ -17,14 +17,16 @@ namespace XF.FirebaseDB
 
         private async void ButAdd_Clicked(object sender, EventArgs e)
         {
-            for (int i=0; i<500;i++)
-            {
                 Model.Persona persona = new Model.Persona();
-                persona.ID = Convert.ToInt32(entID.Text)+i;
+                persona.Identificacion = entID.Text;
                 persona.Nombre = entNombre.Text;
+                persona.FechaCrea = DateTime.Now;
+                persona.FechaModifica = DateTime.Now;
+                persona.Estado = true;
+                persona.Direccion = "Llano Chico";
+                persona.Telefono = "098765432";
                 await new Firebase.PersonaFB().AddPerson(persona);
-                
-            }
+            
             await DisplayAlert("Mensaje", "Grabado", "OK");
             fun();
         }
@@ -34,6 +36,12 @@ namespace XF.FirebaseDB
             ls = await new Firebase.PersonaFB().GetAllPersons();
             lblTotal.Text = ls.Count.ToString();
             lvDatos.ItemsSource = ls;
+        }
+
+        private async void Reset_Clicked(object sender, EventArgs e)
+        {
+            await new Firebase.PersonaFB().Reset();
+            fun();
         }
     }
 }

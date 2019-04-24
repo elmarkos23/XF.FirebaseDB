@@ -12,6 +12,7 @@
             <Button Text="Add" x:Name="butAdd" Clicked="ButAdd_Clicked"/>
             <Button Text="Update" x:Name="butUpdate"/>
             <Button Text="Delete" x:Name="butDelete"/>
+            <Button Text="Reset" x:Name="Reset" Clicked="Reset_Clicked"/>
         </StackLayout>
         <Label x:Name="lblTotal"/>
         <ListView x:Name="lvDatos">

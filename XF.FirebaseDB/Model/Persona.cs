@@ -6,7 +6,12 @@ namespace XF.FirebaseDB.Model
 {
     public class Persona
     {
-        public int ID { get; set; }
+        public string Identificacion { get; set; }
         public string Nombre { get; set; }
+        public string Telefono { get; set; }
+        public string Direccion { get; set; }
+        public DateTime FechaCrea { get; set; }
+        public DateTime FechaModifica { get; set; }
+        public bool Estado { get; set; }
     }
 }

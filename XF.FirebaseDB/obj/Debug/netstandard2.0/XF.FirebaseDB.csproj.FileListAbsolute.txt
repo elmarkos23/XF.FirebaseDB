@@ -1,0 +1,12 @@
+D:\GitHub\XF.FirebaseDB\XF.FirebaseDB\XF.FirebaseDB\bin\Debug\netstandard2.0\XF.FirebaseDB.deps.json
+D:\GitHub\XF.FirebaseDB\XF.FirebaseDB\XF.FirebaseDB\bin\Debug\netstandard2.0\XF.FirebaseDB.dll
+D:\GitHub\XF.FirebaseDB\XF.FirebaseDB\XF.FirebaseDB\obj\Debug\netstandard2.0\XF.FirebaseDB.csprojAssemblyReference.cache
+D:\GitHub\XF.FirebaseDB\XF.FirebaseDB\XF.FirebaseDB\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\GitHub\XF.FirebaseDB\XF.FirebaseDB\XF.FirebaseDB\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\GitHub\XF.FirebaseDB\XF.FirebaseDB\XF.FirebaseDB\obj\Debug\netstandard2.0\XF.FirebaseDB.csproj.CoreCompileInputs.cache
+D:\GitHub\XF.FirebaseDB\XF.FirebaseDB\XF.FirebaseDB\obj\Debug\netstandard2.0\XF.FirebaseDB.AssemblyInfoInputs.cache
+D:\GitHub\XF.FirebaseDB\XF.FirebaseDB\XF.FirebaseDB\obj\Debug\netstandard2.0\XF.FirebaseDB.AssemblyInfo.cs
+D:\GitHub\XF.FirebaseDB\XF.FirebaseDB\XF.FirebaseDB\bin\Debug\netstandard2.0\XF.FirebaseDB.pdb
+D:\GitHub\XF.FirebaseDB\XF.FirebaseDB\XF.FirebaseDB\obj\Debug\netstandard2.0\XamlC.stamp
+D:\GitHub\XF.FirebaseDB\XF.FirebaseDB\XF.FirebaseDB\obj\Debug\netstandard2.0\XF.FirebaseDB.dll
+D:\GitHub\XF.FirebaseDB\XF.FirebaseDB\XF.FirebaseDB\obj\Debug\netstandard2.0\XF.FirebaseDB.pdb

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF.FirebaseDB"
+             x:Class="XF.FirebaseDB.MainPage"
+             Title="Firebase">
+
+    <StackLayout Orientation="Vertical" Padding="5">
+        <Entry x:Name="entID" Placeholder="Ingrese ID"/>
+        <Entry x:Name="entNombre" Placeholder="Ingrese Nombre"/>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Add" x:Name="butAdd" Clicked="ButAdd_Clicked"/>
+            <Button Text="Update" x:Name="butUpdate"/>
+            <Button Text="Delete" x:Name="butDelete"/>
+        </StackLayout>
+        <ListView>
+            
+        </ListView>
+    </StackLayout>
+
+</ContentPage>

@@ -13,8 +13,19 @@
             <Button Text="Update" x:Name="butUpdate"/>
             <Button Text="Delete" x:Name="butDelete"/>
         </StackLayout>
-        <ListView>
-            
+        <Label x:Name="lblTotal"/>
+        <ListView x:Name="lvDatos">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="{Binding ID}"/>
+                            <Label Text="{Binding Nombre}"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
         </ListView>
     </StackLayout>
 

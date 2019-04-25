@@ -13,5 +13,6 @@ namespace XF.FirebaseDB.Model
         public DateTime FechaCrea { get; set; }
         public DateTime FechaModifica { get; set; }
         public bool Estado { get; set; }
+
     }
 }

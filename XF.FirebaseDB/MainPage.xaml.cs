@@ -14,7 +14,6 @@ namespace XF.FirebaseDB
             InitializeComponent();
             fun();
         }
-
         private async void ButAdd_Clicked(object sender, EventArgs e)
         {
                 Model.Persona persona = new Model.Persona();

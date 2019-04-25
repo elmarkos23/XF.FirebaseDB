@@ -15,14 +15,16 @@
             <Button Text="Reset" x:Name="Reset" Clicked="Reset_Clicked"/>
         </StackLayout>
         <Label x:Name="lblTotal"/>
-        <ListView x:Name="lvDatos" ItemTapped="LvDatos_ItemTapped">
+        <ListView x:Name="lvDatos" ItemTapped="LvDatos_ItemTapped" SeparatorColor="Black" BackgroundColor="LightGreen">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout>
-                            <Label Text="{Binding ID}"/>
-                            <Label Text="{Binding Nombre}"/>
-                        </StackLayout>
+                        <Frame Padding="0" OutlineColor="Green">
+                            <StackLayout>
+                                <Label Text="{Binding Identificacion}"/>
+                                <Label Text="{Binding Nombre}"/>
+                            </StackLayout>
+                        </Frame>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>

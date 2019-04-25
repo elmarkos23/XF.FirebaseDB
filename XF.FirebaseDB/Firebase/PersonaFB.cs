@@ -42,10 +42,10 @@ namespace XF.FirebaseDB.Firebase
             await firebase.Child("Persona").OnceAsync<Model.Persona>();
             return allPersons.Where(a => a.Identificacion == personId).FirstOrDefault();
         }
-        public async Task UpdatePerson(string personId, string name)
+        public async Task UpdatePerson(Model.Persona persona)
         {
-            var toUpdatePerson = (await firebase.Child("Persona").OnceAsync<Model.Persona>()).Where(a => a.Object.Identificacion == personId).FirstOrDefault();
-            await firebase.Child("Persona").Child(toUpdatePerson.Key).PutAsync(new Model.Persona() { Identificacion = personId, Nombre = name });
+            var toUpdatePerson = (await firebase.Child("Persona").OnceAsync<Model.Persona>()).Where(a => a.Object.Identificacion == persona.Identificacion).FirstOrDefault();
+            await firebase.Child("Persona").Child(toUpdatePerson.Key).PutAsync(persona);
         }
         public async Task DeletePerson(string personId)
         {

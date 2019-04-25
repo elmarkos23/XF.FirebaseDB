@@ -10,12 +10,12 @@
         <Entry x:Name="entNombre" Placeholder="Ingrese Nombre"/>
         <StackLayout Orientation="Horizontal">
             <Button Text="Add" x:Name="butAdd" Clicked="ButAdd_Clicked"/>
-            <Button Text="Update" x:Name="butUpdate"/>
-            <Button Text="Delete" x:Name="butDelete"/>
+            <Button Text="Update" x:Name="butUpdate" Clicked="ButUpdate_Clicked"/>
+            <Button Text="Delete" x:Name="butDelete" Clicked="ButDelete_Clicked"/>
             <Button Text="Reset" x:Name="Reset" Clicked="Reset_Clicked"/>
         </StackLayout>
         <Label x:Name="lblTotal"/>
-        <ListView x:Name="lvDatos">
+        <ListView x:Name="lvDatos" ItemTapped="LvDatos_ItemTapped">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

@@ -43,5 +43,34 @@ namespace XF.FirebaseDB
             await new Firebase.PersonaFB().Reset();
             fun();
         }
+
+        private void LvDatos_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var persona = e.Item as Model.Persona;
+            if (persona == null)
+                return;
+            entID.Text = persona.Identificacion;
+            entNombre.Text = persona.Nombre;
+        }
+
+        private async void ButUpdate_Clicked(object sender, EventArgs e)
+        {
+            Model.Persona persona = new Model.Persona();
+            persona.Identificacion = entID.Text;
+            persona.Nombre = entNombre.Text;
+            persona.FechaCrea = DateTime.Now;
+            persona.FechaModifica = DateTime.Now;
+            persona.Estado = true;
+            persona.Direccion = "Llano Chico";
+            persona.Telefono = "098765432";
+            await new Firebase.PersonaFB().UpdatePerson(persona);
+            fun();
+        }
+
+        private async void ButDelete_Clicked(object sender, EventArgs e)
+        {
+            await new Firebase.PersonaFB().DeletePerson(entID.Text);
+            fun();
+        }
     }
 }

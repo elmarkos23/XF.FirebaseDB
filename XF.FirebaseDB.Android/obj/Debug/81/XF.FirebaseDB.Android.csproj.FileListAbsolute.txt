@@ -102,6 +102,4 @@ D:\GitHub\XF.FirebaseDB\XF.FirebaseDB\XF.FirebaseDB.Android\obj\Debug\81\android
 D:\GitHub\XF.FirebaseDB\XF.FirebaseDB\XF.FirebaseDB.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 D:\GitHub\XF.FirebaseDB\XF.FirebaseDB\XF.FirebaseDB.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
 D:\GitHub\XF.FirebaseDB\XF.FirebaseDB\XF.FirebaseDB.Android\obj\Debug\81\android\assets\XF.FirebaseDB.Android.pdb
-D:\GitHub\XF.FirebaseDB\XF.FirebaseDB\XF.FirebaseDB\bin\Debug\netstandard2.0\XF.FirebaseDB.dll
-D:\GitHub\XF.FirebaseDB\XF.FirebaseDB\XF.FirebaseDB.Android\bin\Debug\XF.FirebaseDB.dll.mdb
 D:\GitHub\XF.FirebaseDB\XF.FirebaseDB\XF.FirebaseDB.Android\obj\Debug\81\linksrc\XF.FirebaseDB.dll.mdb
